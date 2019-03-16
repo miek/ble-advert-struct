@@ -1,0 +1,12 @@
+[package]
+name = "ble-advert-struct"
+version = "0.1.0"
+authors = ["Mike Walters <mike@flomp.net>"]
+edition = "2018"
+
+[dependencies]
+base64 = "0.10.1"
+base64-serde = "0.3.1"
+serde = "*"
+serde_derive = "*"
+serde_json = "*"
