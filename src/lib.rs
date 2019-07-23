@@ -5,7 +5,7 @@ extern crate base64_serde;
 extern crate serde_derive;
 extern crate serde_json;
 
-base64_serde_type!(serde_base64, base64::URL_SAFE_NO_PAD);
+base64_serde_type!(serde_base64, base64::STANDARD);
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct BLEAdvert {
